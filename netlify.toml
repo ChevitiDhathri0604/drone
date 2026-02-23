@@ -1,7 +1,10 @@
 [build]
   command = "npm run build"
-  publish = "drone-frontend/dist"
+  publish = "dist"
   base = "drone-frontend"
+
+[build.environment]
+  NODE_VERSION = "20"
 
 [[redirects]]
   from = "/*"
