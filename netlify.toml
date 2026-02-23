@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "drone-frontend/dist"
+  base = "drone-frontend"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
