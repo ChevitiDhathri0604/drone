@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+laspy[lazrs,pylaz]
+numpy
+scipy
+shapely
+geojson
+pydantic
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+pymongo
+motor
+pytest
+httpx
